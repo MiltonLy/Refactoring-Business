@@ -4,9 +4,9 @@
 
 Technology Used
 Resource URL
-HTML [https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-CSS  [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) 
-Git  [https://git-scm.com/](https://git-scm.com/)
+- HTML [https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- CSS  [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) 
+- Git  [https://git-scm.com/](https://git-scm.com/)
 
 ## Description
 
@@ -18,6 +18,7 @@ I learned that messy code can still run properly on a webpage, but not as assess
 
 First open terminal(or gitBash) and navigate to the location of the file. Type in (code .) to access the code in Visual Studio Code. 
 
+```
 <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
         <div>
@@ -34,24 +35,29 @@ First open terminal(or gitBash) and navigate to the location of the file. Type i
             </ul>
         </div>
  </header>
+```
 
 The code above shown above was refactored to show an appropriate [<header> semantic element]. This also required changes in the CSS selector.
 
+```
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
+```
 
 This shows that the ".header" identifies all class that fall under ".header", but we only need it to identify the "header" portion as shown below.
 
+```
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
+```
 
 ## Learning Points
 
